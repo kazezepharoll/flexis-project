@@ -1,5 +1,5 @@
-export default ClientPage(prop){
+export default function ClientPage(){
     return (
-        <h1>Welcome {prop.email} </h1>
+        <h1>Welcome</h1>
     )
 }
